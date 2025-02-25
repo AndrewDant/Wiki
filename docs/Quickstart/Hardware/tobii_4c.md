@@ -11,6 +11,7 @@
 9. Check the Talon Voice logs for errors:
    1. "talon.track.tobii.EyeCmdErr: Eye Tracker command 0x42e raised error 0x20000502" means Talon Voice cant determine the location of your head or gaze. It could be a problem with tracker position, head position, monitor size, or multiple screens (dont use extended or mirrored screens with Talon).
 10. Calibrate your eye tracker in Talon if you change monitors or if your room lighting changes substantially.
+11. The tracker relies on near-infrared light, so a small subset of glasses lenses that have 'anti-infrared' coatings will interfere with the eye tracker.
 
 ### Notes on Control Mouse
 
